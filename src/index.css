@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+
+.gridCell {
+  height: 1px;
+  width: 1px;
+  background-color: red;
+}
+
+.gridRow {
+  display: inline;
+  float: left;
+  margin: 0 0 0 0;
+}
+
+.matrix {
+  /*display: inline;*/
+}
