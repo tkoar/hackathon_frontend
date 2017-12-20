@@ -9,7 +9,7 @@ class Matrix extends Component {
   }
 
   componentDidMount() {
-    let arr = Array.apply(null, Array(500)).map((el, idx) => idx)
+    let arr = [...Array(200).keys()]
     this.setState({ rows: arr, cells: arr })
   }
 

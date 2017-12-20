@@ -6,17 +6,17 @@ body {
 
 
 .gridCell {
-  height: 1px;
-  width: 1px;
+  height: 3px;
+  width: 3px;
   background-color: red;
 }
 
 .gridRow {
+
   display: inline;
   float: left;
   margin: 0 0 0 0;
 }
 
 .matrix {
-  /*display: inline;*/
 }
